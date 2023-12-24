@@ -1,0 +1,17 @@
+API - https://pokeapi.co/api/v2/pokemon/12/
+
+data.abilities[i].ability.name
+data.name
+data.height
+data.weight
+data.species.name
+data.held_items[i].item.name
+data.sprites.front_default
+data.sprites.back_default
+data.types[i].type.name
+data.sprites.others.showdown.front_default
+data.sprites.others.showdown.back_default
+
+
+
+Implement shimmer - 
