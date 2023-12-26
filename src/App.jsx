@@ -6,10 +6,12 @@ import Favourites from './components/Favourites';
 import Details from './components/Details';
 import Error from './components/Error';
 
-
+import FavContext from './components/FavContext';
 export default function App() {
   return (
     <div>
+
+<FavContext>
 
 
         <BrowserRouter>
@@ -23,6 +25,7 @@ export default function App() {
           </Routes>
         </BrowserRouter>
 
+</FavContext>
     </div>
   )
 }
