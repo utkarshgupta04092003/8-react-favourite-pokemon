@@ -1,34 +1,23 @@
-import React from 'react'
-import { Link, useNavigate } from 'react-router-dom';
+import React from 'react';
+import { Link } from 'react-router-dom';
 
+const DisplayPokemon = ({ name, imageId }) => {
+  const IMAGE_BASE_URL = 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/';
 
-export default function DisplayPokemon({ name, url, imageId }) {
+  return (
+    <div className="border border-gray-600 p-4 transition duration-300 ease-in-out transform hover:scale-105">
 
-    const img = `https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/5.png`;
-    const IMAGE_BASE_URL = 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/';
+      <Link to={`/details/${imageId}`} className="flex flex-col items-center text-center">
+        <div>
+          <img src={`${IMAGE_BASE_URL}${imageId}.png`} alt={imageId} className="object-cover" />
+        </div>
+        <div className="details mt-2">
+          <span className="text-lg font-bold capitalize">{name}</span>
+        </div>
+      </Link>
 
-    const dataToPass = { name: 'John Doe', age: 25 };
+    </div>
+  );
+};
 
-
-
-    return (
-        <div className="border border-gray-600" >
-
-            {/* <div onClick={()=>    navigate('/routeB', { state: { yourData: 'Hello from Route A' } }) }> */}
-                <Link to={`/details/${imageId}`}>
-                    <div className="img">
-                        <img src={IMAGE_BASE_URL + imageId + '.png'} alt={imageId} />
-                    </div>
-                    <div className="details">
-                        Name : {name}
-                        {/* url : {url} */}
-                        Image id: {imageId}
-                    </div>
-                </Link>
-            {/* </div> */}
-
-
-
-         </div>
-    )
-}
+export default DisplayPokemon;

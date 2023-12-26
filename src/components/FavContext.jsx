@@ -21,18 +21,18 @@ export default function FavContext({children}) {
         console.log('exist',exist)
         if(exist.length != 0){
             alert('alread added to favourite.');
-            // return;
-        }
+
+          }
         else{
 
           let l = list;
-          // l.push(data);
           setList([...list, data]);
           alert('Added to favourite')
         }
     }
 
     const removeFromList = (imageId)=>{
+      console.log(imageId)
       let modified = [];
       for(let i=0;i<list.length;i++){
         if(list[i].imageId != imageId){
