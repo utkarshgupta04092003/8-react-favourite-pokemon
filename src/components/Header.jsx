@@ -5,7 +5,7 @@ const Header = () => {
   return (
     <div className="bg-gray-800 text-white py-4">
       <div className="container mx-auto flex justify-between items-center">
-        <Link to='/' className="text-2xl font-bold">My App</Link>
+        <Link to='/' className="text-2xl font-bold">My Pokemon</Link>
 
         <ul className="flex space-x-4">
           <li>
