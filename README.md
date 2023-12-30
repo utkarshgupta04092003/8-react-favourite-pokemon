@@ -75,8 +75,10 @@ The React Favourite Pokemon App is a web application built with React, Vite, the
 ![image](https://github.com/utkarshgupta04092003/8-react-favourite-pokemon/assets/63789702/f5062fef-960f-42ec-8232-7b4c145aed5f)
 
 #### Favourite Page
-![image](https://github.com/utkarshgupta04092003/8-react-favourite-pokemon/assets/63789702/28ed3c85-1bf9-492f-b503-0d7b5b2d54a1)
+![image](https://github.com/utkarshgupta04092003/8-react-favourite-pokemon/assets/63789702/28720344-3fb0-4c61-ab2a-266614409080)
 
+#### Invalid route
+![image](https://github.com/utkarshgupta04092003/8-react-favourite-pokemon/assets/63789702/9968601d-ea33-4eb5-a4d0-addc5c091676)
 
 
 ## Project Structure
