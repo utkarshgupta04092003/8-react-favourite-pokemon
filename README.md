@@ -14,7 +14,7 @@
 
 ## Overview
 
-The React Favourite Pokemon App is a web application built with React, Vite, the Pokemon API, Tailwind CSS, and additional features such as React `useState`, `useEffect` hooks, `react-router-dom` for routing with parameters, and `Context API` to store the favourite list. The app features a header with links for Home, Favourites, About, and Contact. The Home page displays 20 Pokemon per page, showing their names and images. It also includes previous and next buttons, along with the current page number. Clicking on any Pokemon redirects to a details page that shows all the details and includes an "Add to Favourite" button. The Favourites page in the header displays a list of favourite Pokemon with their images, names, and a "Remove from List" button.
+The React Favourite Pokemon App is a web application built with React, Vite, the Pokemon API, Tailwind CSS, and additional features such as React `useState`, `useEffect` hooks, `react-router-dom` for routing with parameters, and `Context API` to store the favourite list. The app features a header with links for Home, Favourites, About, and Contact. The Home page displays 20 Pokemon per page, showing their names and images. It also includes the previous and next buttons, along with the current page number. Clicking on any Pokemon redirects to a details page that shows all the details and includes an "Add to Favourite" button. The Favourites page in the header displays a list of favourite Pokemon with their images, names, and a "Remove from List" button.
 
 ## Features
 
@@ -62,7 +62,22 @@ The React Favourite Pokemon App is a web application built with React, Vite, the
 
 ## Screenshots
 
-![React Favourite Pokemon App Screenshot](./screenshot.png)
+#### Home Page
+![image](https://github.com/utkarshgupta04092003/8-react-favourite-pokemon/assets/63789702/e8fb842f-27e1-4af3-bbd1-5c89b4b9ab15)
+
+#### Searched result
+![image](https://github.com/utkarshgupta04092003/8-react-favourite-pokemon/assets/63789702/63d0d044-5fba-4b01-85bc-c24393c20574)
+
+#### No result found
+![image](https://github.com/utkarshgupta04092003/8-react-favourite-pokemon/assets/63789702/8932eb4a-b499-4162-bab2-f7cf90e16e1a)
+
+#### Details Page
+![image](https://github.com/utkarshgupta04092003/8-react-favourite-pokemon/assets/63789702/f5062fef-960f-42ec-8232-7b4c145aed5f)
+
+#### Favourite Page
+![image](https://github.com/utkarshgupta04092003/8-react-favourite-pokemon/assets/63789702/28ed3c85-1bf9-492f-b503-0d7b5b2d54a1)
+
+
 
 ## Project Structure
 
